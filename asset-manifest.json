@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dreamlash/static/css/main.073c9b0a.css",
+    "main.js": "/dreamlash/static/js/main.988c627c.js",
+    "static/media/lashKit.jpg": "/dreamlash/static/media/lashKit.897b9271d2af812b5074.jpg",
+    "static/media/lashFace.jpg": "/dreamlash/static/media/lashFace.48c2391756cd81d5fb6a.jpg",
+    "static/media/ArtemisLash.jpg": "/dreamlash/static/media/ArtemisLash.4ba88f4093fa9225c264.jpg",
+    "static/media/beforeLash.jpg": "/dreamlash/static/media/beforeLash.e04ab642264ff8397885.jpg",
+    "index.html": "/dreamlash/index.html",
+    "main.073c9b0a.css.map": "/dreamlash/static/css/main.073c9b0a.css.map",
+    "main.988c627c.js.map": "/dreamlash/static/js/main.988c627c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.988c627c.js"
+  ]
+}

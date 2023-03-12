@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Navigation/Header';
+import Main from './Pages/Main';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() =>{
+    document.documentElement.scrollTop =0;
+    document.scrollingElement.scrollTop = 0;
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main/>
     </div>
   );
 }
